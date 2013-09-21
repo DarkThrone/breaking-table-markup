@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breaking Table ~ D3mian</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/breaking-table.css"/>
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1 class="text-center">Breaking Table</h1>
+    </div>
+    <div class="table-container">
+        <div class="row image-row">
+            <div class="image-cell">image</div>
+            <div class="image-cell">image</div>
+            <div class="col-img-8 image-cell">image</div>
+            <div class="image-cell">lalala 2</div>
+        </div>
+        <div class="row image-row">
+            <div class="image-cell">image</div>
+            <div class="image-cell">lalala 2</div>
+            <div class="image-cell">lalala 2</div>
+            <div class="col-img-7 image-cell">lalala 2</div>
+            <div class="image-cell">lalala 2</div>
+            <div class="image-cell">lalala 2</div>
+        </div>
+        <div class="row image-row">
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+        </div>
+        <div class="row image-row">
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+        </div>
+        <div class="row image-row">
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+            <div class="image-cell"></div>
+        </div>
+    </div>
+    <div class="share-container">
+        <div class="row share-btn-container">
+            <a data-toggle="modal" href="#myModal" class="btn btn-default btn-large">Share the love!</a>
+        </div>
+        <div class="row secondary-share-container">
+
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Share the love!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="center-share-btn">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="d3mian" data-lang="es" data-size="large" data-dnt="true">Twittear</a>
+                </div>
+                <div class="center-share-btn">
+                    <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
+                </div>
+                <div class="center-share-btn">
+                    <div class="fb-like" data-href="http://breakingtable.com" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div id="fb-root"></div>
+<script>(function(d, s, id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_GB/all.js#xfbml=1&appId=136027549774874";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+</body>
+</html>

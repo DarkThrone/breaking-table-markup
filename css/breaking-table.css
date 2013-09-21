@@ -1,0 +1,45 @@
+.image-cell {
+    height: 94px;
+    width: 90px;
+    background-color: #2d6987;
+    margin: 2px;
+    float: left;
+}
+
+.image-row, .share-btn-container {
+    width: 74.5%;
+    margin: 0 auto;
+}
+
+.share-btn-container {
+    margin-top: 20px;
+}
+
+.share-btn-container a {
+    margin: 0 auto;
+    display: block;
+    width: 211px;
+}
+
+.center-share-btn {
+    width: 33.333333333332%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+table-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.col-img-1 {
+    margin-left:0px;
+}
+
+.col-img-7 {
+    margin-left:284px;
+}
+
+.col-img-8 {
+    margin-left:472px;
+}
