@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Breaking Table ~ D3mian</title>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/breaking-table.css"/>
 </head>
 <body>
@@ -61,13 +62,38 @@
     </div>
     <div class="share-container">
         <div class="row share-btn-container">
-            <a data-toggle="modal" href="#myModal" class="btn btn-default btn-large">Share the love!</a>
+            <a data-toggle="modal" href="#myModal" class="btn btn-default btn-large">Share the love! <i class="glyphicon glyphicon-heart"></i> </a>
         </div>
         <div class="row secondary-share-container">
 
         </div>
     </div>
 </div>
+<footer>
+    <section class="footer-header">
+        <div class="simbol"><i class="glyphicon glyphicon-user"></i></div>
+    </section>
+    <section class="d3mian">
+        <img src="images/d3mian.png" alt="d3mian"/>
+        <h4>D3mian</h4>
+        <div class="social-stack">
+            <a href="http://twitter.com">Twitter</a><a href="http://facebook.com">Fb</a><a href="http://behance.com">Behance</a><a href="http://d3mian.com">Personal</a>
+        </div>
+        <p>
+            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby.
+        </p>
+    </section>
+    <section class="geronimogarcia">
+        <img src="images/geronimogarcia.jpg" alt="geronimogarcia"/>
+        <h4>geronimogarcia</h4>
+        <div class="social-stack">
+            <a href="http://twitter.com">Twitter</a><a href="http://facebook.com">Fb</a><a href="http://behance.com">Behance</a><a href="http://d3mian.com">Personal</a>
+        </div>
+        <p>
+            Programador desde los 8 años. Amante de la música y los números. Estudiante de ingeniería en la Universidad de Buenos Aires. Actualmente Software Designer @ Globant
+        </p>
+    </section>
+</footer>
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -95,17 +121,30 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"></h4>
+                <h4 class="modal-title">Share the love!</h4>
             </div>
             <div class="modal-body">
+                <i id="takeMeLeft" class="glyphicon glyphicon-circle-arrow-left"></i>
                 <div class="modal-image"></div>
+                <i id="takeMeRight" class="glyphicon glyphicon-circle-arrow-right"></i>
+                <div class="share-container">
+                    <div class="center-share-btn">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="d3mian" data-lang="es" data-size="large" data-dnt="true">Twittear</a>
+                    </div>
+                    <div class="center-share-btn">
+                        <a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark" ><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
+                    </div>
+                    <div class="center-share-btn">
+                        <div class="fb-like" data-href="http://breakingtable.com" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+                    </div>
+                </div>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div>
 
 <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/gallery.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_GB/all.js#xfbml=1&appId=136027549774874";fjs.parentNode.insertBefore(js,fjs);}(document,'script','facebook-jssdk'));</script>
