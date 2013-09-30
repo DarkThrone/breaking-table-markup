@@ -1,17 +1,58 @@
-body{
-    margin: 0;
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
+@font-face {
+    font-family: 'Heart Breaking Bad';
+    src: url('../fonts/Heart-Breaking-Bad.eot');
+    src: local('☺'), url('../fonts/Heart-Breaking-Bad.woff') format('woff'), url('../fonts/Heart-Breaking-Bad.ttf') format('truetype'), url('../fonts/Heart-Breaking-Bad.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    background: rgb(255, 255, 242) ; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(255, 255, 242)  0%, rgb(240, 240, 186) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255, 255, 242) ), color-stop(100%,rgb(240, 240, 186))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(255, 255, 242)  0%,rgb(240, 240, 186) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(255, 255, 242)  0%,rgb(240, 240, 186) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(255, 255, 242)  0%,rgb(240, 240, 186) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(255, 255, 242)  0%,rgb(240, 240, 186) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 242) ', endColorstr='rgb(240, 240, 186)',GradientType=0 ); /* IE6-9 */
+}
+
+.container {
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+.page-header {
+    border-bottom: none;
+}
+
+.page-header h1 {
+    font-family: 'Heart Breaking Bad', Arial, sans-serif;
+    font-size: 48pt;
+    line-height: 37pt;
+}
+
+.page-header h1 span.pusher {
+    margin-left: 1%;
+}
+
 .table-container {
+    margin-top: -95px;
     max-width: 1140px;
 }
 
+button.close {
+    font-size: 25pt;
+    line-height: 18pt;
+}
 
 .image-cell {
     max-height: 92px;
     max-width: 88px;
     padding: 1px;
     width: 11.111111111%;
-    background-color: #FFFFFF;
     float: left;
     box-shadow: 0 0 0 rgba(0, 167, 34, 0);
 }
@@ -41,7 +82,7 @@ body{
     text-shadow: 0px 0px 0px rgba(180, 16, 16, 0);
 }
 
-.share-btn-container:hover a i {
+.share-btn-container a:hover i {
     transition: text-shadow 250s;
     -webkit-transition: text-shadow 250ms;
     -moz-transition: text-shadow 250ms;
@@ -154,7 +195,85 @@ footer section.geronimogarcia,
 footer section.d3mian {
     width: 40%;
     float: left;
-    margin: 0 auto;
+    margin: 0 5%;
+}
+
+footer section {
+    color: rgb(240, 240, 185);
+    text-shadow: 1px 1px 1px #262626;
+    line-height: 1.6em;
+}
+
+footer section .social-stack {
+    font-size: 14pt;
+    margin: 8px 0 15px 0;
+}
+
+footer section.d3mian .social-stack {
+    text-align: right;
+}
+
+footer section .social-stack a {
+    -webkit-transition: background-color 500ms, color 375ms;
+    -moz-transition: background-color 500ms, color 375ms;
+    -ms-transition: background-color 500ms, color 375ms;
+    -o-transition: background-color 500ms, color 375ms;
+    transition: background-color 500ms, color 375ms;
+    color: #606c88;
+    width: 26pt;
+    height: 26pt;
+    display: inline-block;
+    line-height: 26pt;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+footer section .social-stack a:hover {
+    text-decoration: none;
+}
+
+footer section .social-stack a.bookmark:hover {
+    color:rgb(51, 51, 51);
+    background-color: rgb(240, 240, 186);
+}
+
+footer section .social-stack a.facebook:hover {
+    color:#FFF;
+    background-color: rgb(59, 89, 152);
+}
+
+footer section .social-stack a.twitter:hover {
+    color:#FFF;
+    background-color: rgb(64,153,255);
+}
+
+footer section .social-stack a.dribbble:hover {
+    color:#262626;
+    background-color: rgb(199,59,111);
+}
+
+footer section .social-stack a.github:hover {
+    color: #FFF;
+    background-color: rgb(51, 51, 51);
+}
+
+footer section .social-stack a.linkedin:hover {
+    color:#FFF;
+    background-color: rgb(26,127,179);
+}
+
+footer section h3 {
+    margin-top: 3px;
+}
+
+footer section p {
+    font-family: 'Raleway', Arial, sans-serif;
+    word-break: break-all;
+}
+
+footer section.d3mian h3 {
+    text-align: right;
 }
 
 footer section img {
