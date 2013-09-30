@@ -58,7 +58,7 @@ function makeGallery(itemHook){
         //update the index
         current = (++current)%MAX_IMAGES;
         //Find the image AND update current. Use a mod cap to cycle through all the images
-        oldImg = images[(++current)%MAX_IMAGES];
+        oldImg = images[current];
 
         $modal.find('.modal-image img');
         showImage(oldImg, $modal);
@@ -68,7 +68,7 @@ function makeGallery(itemHook){
         var oldImg;
 
         //update the index
-        current = (--current)>0?current:(MAX_IMAGES-1);
+        current = (--current)>=0?current:(MAX_IMAGES-1);
         //Find the image AND update current. Use a mod cap to cycle through all the images
         oldImg = images[current];
 
