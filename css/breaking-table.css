@@ -49,8 +49,8 @@ button.close {
 }
 
 .image-cell {
-    max-height: 92px;
-    max-width: 88px;
+    max-height: 116px;
+    max-width: 116px;
     padding: 1px;
     width: 11.111111111%;
     float: left;
@@ -58,12 +58,12 @@ button.close {
 }
 
 .image-cell img {
-    max-width: 88px;
+    max-width: 116px;
     width: 100%;
 }
 
 .image-row, .share-btn-container {
-    max-width: 792px;
+    max-width: 1049px;
     margin: 0 auto;
 }
 
@@ -103,11 +103,11 @@ button.close {
 }
 
 .col-span-7 {
-    margin-left:33.333333333%;
+    margin-left:33.2%;
 }
 
 .col-span-8 {
-    margin-left:55.555555556%;
+    margin-left:55.3%;
 }
 
 .modal-image {
